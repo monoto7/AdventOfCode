@@ -12,6 +12,7 @@ pub fn day1() {
     },
         Ok(str) => str
     };
+    
     //Get individual elf backpacks
     let backpacks = input.split("\n\n");
     let mut vectint = Vec::new();
